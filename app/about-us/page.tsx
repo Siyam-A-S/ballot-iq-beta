@@ -1,9 +1,4 @@
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-  } from "@/components/ui/accordion"
+
   
 export default async function AboutUs(){
     return(
