@@ -4,8 +4,7 @@ Intro to Affective computing project
 
 TEAM :JUSTICE LEAGUE 
 
-Members: Siyam Al Shahriar, Rickelle Jones
-
+Members: Siyam Al Shahriar(Siyam-A-S), Rickelle Jones(rickeezy)
 
 
 ## Getting Started
