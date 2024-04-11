@@ -1,13 +1,22 @@
 
 
-Intro to Affective computing project
-TEAM :JUSTICE LEAGUE
+Intro to Affective computing project 
 
+TEAM :JUSTICE LEAGUE 
+
+Members: Siyam Al Shahriar(Siyam-A-S), Rickelle Jones(rickeezy)
 
 
 ## Getting Started
 First, make sure you have Node.js installed in your computer. We are going to host this locally.
 Go to the project folder in terminal.
+
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Make sure to run the following command if you do not have nextJS framework installed already.
+```bash
+npm install next
+```
 Run the development server:
 
 ```bash
