@@ -69,7 +69,11 @@ export default async function AboutUs(){
             </Card>
         </TabsContent>
         </Tabs>
-        </div>      
+        </div> 
+
+  
+        <Button variant="secondary">Secondary</Button>   
+         
     </main>
     )
 }
