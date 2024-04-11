@@ -1,6 +1,7 @@
 
 
-Intro to Affective computing project
+Intro to Affective computing project 
+
 TEAM :JUSTICE LEAGUE
 
 
@@ -8,6 +9,11 @@ TEAM :JUSTICE LEAGUE
 ## Getting Started
 First, make sure you have Node.js installed in your computer. We are going to host this locally.
 Go to the project folder in terminal.
+
+Make sure to run
+```bash
+nom install next
+```
 Run the development server:
 
 ```bash
