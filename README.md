@@ -10,9 +10,11 @@ TEAM :JUSTICE LEAGUE
 First, make sure you have Node.js installed in your computer. We are going to host this locally.
 Go to the project folder in terminal.
 
-Make sure to run
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Make sure to run the following command if you do not have nextJS framework installed already.
 ```bash
-nom install next
+npm install next
 ```
 Run the development server:
 
