@@ -48,7 +48,7 @@ export default async function Home() {
           </p>
         </a>
         <a
-          href="/get-started"
+          href="/preview-questionnaire"
           className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
