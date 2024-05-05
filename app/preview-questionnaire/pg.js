@@ -14,7 +14,7 @@ export default function Home() {
                 <h1 className='text-success mtb-1 '>
                     BallotIQ
                 </h1>
-                <h3 className='mb-4'>Answer the questions below to let us know about your political stance</h3>
+                <h3 className='mb-4'>Please answer the following questions to determine which candidate's policies align most closely with your views:</h3>
             </div>
  
             {quizStarted ? (

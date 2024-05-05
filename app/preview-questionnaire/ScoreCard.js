@@ -13,32 +13,22 @@ const ScoreCard = ({ quizResult, questions, name }) => {
                 <h3>Hello, {name}. Here is your Result Analysis</h3>
                 <table className='table'>
                     <tbody>
-                        <tr>
-                            <td>Total Questions:</td>
-                            <td>{questions.length}</td>
-                        </tr>
-                        <tr>
-                            <td>Total Score:</td>
-                            <td>{quizResult.score}</td>
-                        </tr>
-                        <tr>
-                            <td>Correct Answers:</td>
-                            <td>{quizResult.correctAnswers}</td>
-                        </tr>
-                        <tr>
-                            <td>Wrong Answers:</td>
-                            <td>{quizResult.wrongAnswers}</td>
-                        </tr>
-                        <tr>
-                            <td>Percentage:</td>
-                            <td>{percentage}%</td>
-                        </tr>
-                        <tr>
-                            <td>Status:</td>
-                            <td>{status}</td>
-                        </tr>
+                        <p>
+                            Based on your answers, we recommend you:
+                            <div className='text-3xl'>
+                                Donald Trump
+                            </div>
+                        </p>
                     </tbody>
                 </table>
+                <div>
+                    {status === 'Pass' ? (
+                        <p>Based on your reaction, seems like Donald Trump is a no-brainer for you</p>
+                    ) : (
+                        <p>Based on your reaction, seems like you weren't satisfied with our recommendation. Maybe try again.</p>
+                    )}
+         
+                </div>
                 <button
                     onClick={() => window.location.reload()}
                     className='btn btn-primary mt-3'

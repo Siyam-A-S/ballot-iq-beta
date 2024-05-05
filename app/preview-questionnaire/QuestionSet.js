@@ -3,7 +3,7 @@ export const quiz = {
 	questions: [
 		{
 			id: 1,
-			question: 'What do you think about privatization of public schools?',
+			question: "Do you support increasing taxes on the wealthy to fund social programs and reduce income inequality?",
 			answers: ['Yes', 'No', 'Maybe', 'Not sure'],
 				
 			correctAnswer: 'No',
@@ -11,24 +11,33 @@ export const quiz = {
 
 		{
 			id: 3,
-			question: `Which programming language is often 
-			used for building web servers?`,
-			answers: ['Java', 'Python', 'JavaScript', 'C#'],
-			correctAnswer: 'JavaScript',
+			question: "Do you support implementing a single-payer healthcare system, such as Medicare for All?",
+			answers:['Yes', 'No', 'Maybe', 'Not sure'],
+			correctAnswer: 'Maybe',
 		},
 		{
 			id: 4,
-			question: 'What is the purpose of SQL?',
-			answers: ['Styling web pages', 'Querying databases',
-				'Creating animations', 'Developing mobile apps'],
-			correctAnswer: 'Querying databases',
+			question: "Do you support transitioning to renewable energy sources, such as solar and wind power, to combat climate change?",
+			answers:['Yes', 'No', 'Maybe', 'Not sure'],
+			correctAnswer: 'Maybe',
 		},
 		{
 			id: 5,
-			question: 'What does MVC stand for in web development?',
-			answers: ['Model View Controller', 'Model Visual Controller',
-				'Model View Component', 'Model Visual Component'],
-			correctAnswer: 'Model View Controller',
+			question: "Do you support ending mass incarceration and implementing criminal justice reform, including reducing sentences for non-violent offenses?",
+			answers: ['Yes', 'No', 'Maybe', 'Not sure'],
+			correctAnswer: 'Maybe',
+		},
+		{
+			id: 6,
+			question: "Do you support creating a pathway to citizenship for undocumented immigrants, including DACA recipients?",
+			answers: ['Yes', 'No', 'Maybe', 'Not sure'],
+			correctAnswer: 'Maybe',
+		},
+		{
+			id: 7,
+			question: "Do you support reducing military intervention and prioritizing diplomacy in foreign affairs?",
+			answers: ['Yes', 'No', 'Maybe', 'Not sure'],
+			correctAnswer: 'Maybe',
 		},
 	],
 };
