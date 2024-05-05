@@ -1,5 +1,6 @@
 // ScoreCard.js
 import React from 'react';
+import Typewriter from 'typewriter-effect'; 
  
 const ScoreCard = ({ quizResult, questions, name }) => {
     const passPercentage = 60;
@@ -14,18 +15,53 @@ const ScoreCard = ({ quizResult, questions, name }) => {
                 <table className='table'>
                     <tbody>
                         <p>
-                            Based on your answers, we recommend you:
+                            Based on your preferences, we recommend you:
                             <div className='text-3xl'>
-                                Donald Trump
+                                {status === 'Pass' ? (
+                                    <p>Donald Trump
+                                    </p>
+                                ) : (
+                                    <p>Joe Biden</p>
+                                )}
                             </div>
                         </p>
                     </tbody>
                 </table>
                 <div>
                     {status === 'Pass' ? (
-                        <p>Based on your reaction, seems like Donald Trump is a no-brainer for you</p>
+                                <div> 
+                                <Typewriter 
+                                    onInit={(typewriter) => { 
+                                    typewriter.typeString('Based on your reaction, seems like Donald Trump is a no-brainer for you') 
+                                        .callFunction(() => { 
+                                        }) 
+                                        .pauseFor(5500) 
+                                        .deleteAll() 
+                                        .callFunction(() => { 
+                                        }) 
+                                        .start(); 
+                                    }} 
+                                /> 
+                                </div> 
+                        // <p>Based on your reaction, seems like Donald Trump is a no-brainer for you</p>
                     ) : (
-                        <p>Based on your reaction, seems like you weren't satisfied with our recommendation. Maybe try again.</p>
+                        <div> 
+                                <Typewriter 
+                                    onInit={(typewriter) => { 
+                                    typewriter.typeString('Based on your reaction, seems like you were confused with the outcome. Maybe try again.') 
+                                        .callFunction(() => { 
+                                        }) 
+                                        .pauseFor(5500) 
+                                        .deleteAll() 
+                                        .callFunction(() => { 
+                                        }) 
+                                        .start(); 
+                                    }} 
+                                /> 
+                                </div>
+
+
+                        // <p>Based on your reaction, seems like you weren't satisfied with our recommendation. Maybe try again.</p>
                     )}
          
                 </div>
