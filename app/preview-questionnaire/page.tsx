@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import App  from './mph-sdk-integration-react/src/App';
 import Home from './pg'
+import Image from 'next/image';
 // Default function
 export default function CarouselDemo() {
 

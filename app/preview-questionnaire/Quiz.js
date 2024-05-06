@@ -56,6 +56,12 @@ const Quiz = ({ name }) => {
                 {!showResults ? (
                     <div className='card p-4'>
                         <h4>{question}</h4>
+                        <img
+                            src="/video-player.jpg"
+                            alt="Your image description"
+                            width={400}
+                            height={300}
+                        />
                         <ul className='list-group'>
                             {answers.map((answer, idx) => (
                                 <li
